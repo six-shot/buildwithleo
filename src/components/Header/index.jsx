@@ -26,7 +26,7 @@ export default function Index() {
     const [isActive, setIsActive] = useState(false);
 
     return (
-      <div className="flex justify-between items-center w-full h-[80px] relative">
+      <div className="flex justify-between items-center w-full  relative">
         <h5 className="uppercase text-white text-[24px] font-bold ">
           Workwithleo
         </h5>
