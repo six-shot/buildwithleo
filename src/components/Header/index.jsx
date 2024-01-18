@@ -9,14 +9,15 @@ const menu = {
     open: {
         width: "480px",
         height: "50vh",
-       
-        
+  
+        right: "-25px",
         transition: { duration: 0.75, type: "tween", ease: [0.76, 0, 0.24, 1]}
     },
     closed: {
         width: "100px",
         height: "40px",
         
+        right: "0px",
         transition: { duration: 0.75, delay: 0.35, type: "tween", ease: [0.76, 0, 0.24, 1]}
     }
 }
