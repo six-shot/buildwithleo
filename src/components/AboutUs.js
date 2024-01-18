@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutUs() {
   return (
-    <div className=" p-[5%]">
+    <div className=" px-[5%] py-[5%] 2xl:px-0">
       <div className="grid sm:grid-cols-8 items-center gap-[10px]">
         <div className="sm:col-span-2">
           <h4 className="text-[#000021] text-[22px] font-bold">
