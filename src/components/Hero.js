@@ -8,7 +8,7 @@ import Technology from "./Technology";
 export default function Hero() {
   return (
     <div className="">
-      <div className="bg-[#0000DB] px-[5%] py-[2%] w-full h-[70vh] ">
+      <div className="bg-[#0000DB] px-[5%] 2xl:px-0 py-[2%] w-full h-[70vh] ">
         <div>
           <Header />
           <div className="flex justify-center h-[50vh] items-center">
