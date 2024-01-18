@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyWithUs() {
   return (
-    <div className="px-[5%] 2xl:px-0 bg-[#000021]">
+    <div className="px-[5%]  bg-[#000021]">
       <h4 className="text-white text-center text-[24px] pt-[3%]">
         Why Work with us
       </h4>
