@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    .body{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        .linkContainer{
+        
+            perspective-origin: bottom;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 46px;
+        }
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        a{
+            width: 50%;
+            margin-top: 5px;
+        }
+    }
+}
