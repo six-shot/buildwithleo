@@ -8,7 +8,7 @@ export default function Hero() {
       <div>
      <Header/>
         <div className="flex justify-center h-[50vh] items-center">
-            <div className="flex sm:gap-20 justify-between sm:justify-center items-center w-full px-[10%] sm:px-0 sm:text-[32px] font-bold text-white">
+            <div className="flex sm:gap-20 justify-between sm:justify-center items-center w-full px-[10%] sm:px-0 sm:text-[32px] text-[20px] font-bold text-white">
                 <h5>Ideas</h5>
                 <h5>People</h5>
                 <h5>Technology</h5>
