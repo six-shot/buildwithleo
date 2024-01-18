@@ -27,9 +27,10 @@ export default function Index() {
 
     return (
       <div className="flex justify-between items-center w-full  relative">
-        <h5 className="uppercase text-white text-[24px] font-bold ">
-          Workwithleo
+        <h5 className=" uppercase text-white text-[24px] font-bold ">
+          W.l
         </h5>
+        
         <div className={styles.header}>
           <motion.div
             className={styles.menu}
