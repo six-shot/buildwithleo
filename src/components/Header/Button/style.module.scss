@@ -135,3 +135,30 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .perspectiveText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.75s cubic-bezier(0.76, 0, 0.24, 1);
+    p{
+        transition: all 0.75s cubic-bezier(0.76, 0, 0.24, 1);
+        pointer-events: none;
+        text-transform: uppercase;
+        &:nth-of-type(2){
+            position: absolute;
+            transform-origin: bottom center;
+            transform: rotateX(-90deg) translateY(14px);
+            opacity: 0;
+        }
+    }
+}
+
+}
