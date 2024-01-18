@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/components/Header/Button/style.module.scss";
 import { motion } from "framer-motion";
-export default function () {
+export default function Technology() {
   return (
     <div className={styles.buttonn}>
       <div className={styles.slider}>
