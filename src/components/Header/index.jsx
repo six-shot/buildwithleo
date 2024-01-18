@@ -7,8 +7,8 @@ import Nav from './Nav';
 
 const menu = {
     open: {
-        width: "480px",
-        height: "50vh",
+        width: "400px",
+        height: "60vh",
   
         right: "-25px",
         transition: { duration: 0.75, type: "tween", ease: [0.76, 0, 0.24, 1]}
