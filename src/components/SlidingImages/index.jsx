@@ -54,38 +54,50 @@ export default function SlidingImages() {
     const height = useTransform(scrollYProgress, [0, 0.9], [50, 0])
 
     return (
+      <div className='sm:flex hidden'>
         <div ref={container} className={styles.slidingImages}>
-            <motion.div style={{x: x1}} className={styles.slider}>
-                    {
-                        slider1.map( (project, index) => {
-                            return <div key={index} className={styles.project} style={{backgroundColor: project.color}} >
-                                <div className={styles.imageContainer}>
-                                    <Image 
-                                    fill={true}
-                                    alt={"image"}
-                                    src={`/images/${project.src}`}/>
-                                </div>
-                            </div>
-                        })
-                    }
-                </motion.div>
-                <motion.div style={{x: x2}} className={styles.slider}>
-                    {
-                        slider2.map( (project, index) => {
-                            return <div key={index} className={styles.project} style={{backgroundColor: project.color}} >
-                                <div key={index} className={styles.imageContainer}>
-                                    <Image 
-                                    fill={true}
-                                    alt={"image"}
-                                    src={`/images/${project.src}`}/>
-                                </div>
-                            </div>
-                        })
-                    }
-                </motion.div>
-                <motion.div style={{height}} className={styles.circleContainer}>
-                    <div className={styles.circle}></div>
-                </motion.div>
+          <motion.div style={{ x: x1 }} className={styles.slider}>
+            {slider1.map((project, index) => {
+              return (
+                <div
+                  key={index}
+                  className={styles.project}
+                  style={{ backgroundColor: project.color }}
+                >
+                  <div className={styles.imageContainer}>
+                    <Image
+                      fill={true}
+                      alt={"image"}
+                      src={`/images/${project.src}`}
+                    />
+                  </div>
+                </div>
+              );
+            })}
+          </motion.div>
+          <motion.div style={{ x: x2 }} className={styles.slider}>
+            {slider2.map((project, index) => {
+              return (
+                <div
+                  key={index}
+                  className={styles.project}
+                  style={{ backgroundColor: project.color }}
+                >
+                  <div key={index} className={styles.imageContainer}>
+                    <Image
+                      fill={true}
+                      alt={"image"}
+                      src={`/images/${project.src}`}
+                    />
+                  </div>
+                </div>
+              );
+            })}
+          </motion.div>
+          <motion.div style={{ height }} className={styles.circleContainer}>
+            <div className={styles.circle}></div>
+          </motion.div>
         </div>
-    )
+      </div>
+    );
 }
