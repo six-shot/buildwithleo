@@ -4,23 +4,23 @@ import styles from './style.module.scss';
 import Image from 'next/image';
 
 const slider1 = [
-    {
-        color: "#e3e5e7",
-        src: "c2.jpg"
-    },
-    {
-        color: "#d6d7dc",
-        src: "decimal.jpg"
-    },
-    {
-        color: "#e3e3e3",
-        src: "funny.jpg"
-    },
-    {
-        color: "#21242b",
-        src: "google.jpg"
-    }
-]
+  {
+    color: "#e3e5e7",
+    src: "c2.jpg",
+  },
+  {
+    color: "#21242b",
+    src: "16.png",
+  },
+  {
+    color: "#e3e3e3",
+    src: "funny.jpg",
+  },
+  {
+    color: "#21242b",
+    src: "google.jpg",
+  },
+];
 
 const slider2 = [
     {
