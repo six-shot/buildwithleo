@@ -27,10 +27,10 @@ export default function Button({isActive, toggleMenu}) {
 }
 
 function PerspectiveText({label}) {
-    return (    
-        <div className={styles.perspectiveText}>
-            <p>{label}</p>
-            <p>{label}</p>
-        </div>
-    )
+    return (
+      <div className={styles.perspectiveText}>
+        <p className="font-monument_normal">{label}</p>
+        <p className="font-monument_normal">{label}</p>
+      </div>
+    );
 }

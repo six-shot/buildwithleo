@@ -27,7 +27,7 @@ export default function Index() {
 
     return (
       <div className="flex justify-between items-center w-full  relative">
-        <h5 className=" uppercase text-white text-[24px] font-bold ">
+        <h5 className=" uppercase text-white text-[24px] font-bold font-monument_bold ">
           W.l
         </h5>
         

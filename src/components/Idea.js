@@ -16,8 +16,8 @@ export default function Idea () {
 function PerspectiveText({ label }) {
   return (
     <div className={styles.perspectiveText}>
-      <p>{label}</p>
-      <p>{label}</p>
+      <p className="font-monument_normal">{label}</p>
+      <p className="font-monument_normal">{label}</p>
     </div>
   );
 }

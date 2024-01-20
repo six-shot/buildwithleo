@@ -5,12 +5,12 @@ export default function AboutUs() {
     <div className=" px-[5%] py-[5%] ">
       <div className="grid sm:grid-cols-8 items-center gap-[10px]">
         <div className="sm:col-span-2">
-          <h4 className="text-[#000021] text-[22px] font-bold">
+          <h4 className="text-[#000021] text-[18px] font-monument_bold">
             We are a creative powerhouse dedicated to shaping remarkable brands
           </h4>
         </div>
         <div className="sm:col-span-6">
-          <p className="sm:p-[2%] text-[#000021] text-sm font-semibold">
+          <p className="sm:p-[2%] text-[#000021] text-sm font-monument_normal">
             At our core, we believe that a strong brand is the heartbeat of any
             successful enterprise. It is the essence that capture
             attention,build trust, and forges lsting connetions with customers.
