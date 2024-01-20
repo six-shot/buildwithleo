@@ -3,7 +3,7 @@ import React from "react";
 export default function WhyWithUs() {
   return (
     <div className="px-[5%]  bg-[#000021]">
-      <h4 className="text-white text-center font-monument_normal text-[24px] pt-[3%]">
+      <h4 className="text-white text-left sm:text-center font-monument_normal text-[24px] pt-[3%]">
         Why Work with us
       </h4>
       <div className="grid sm:grid-cols-3 sm:gap-x-24 sm:gap-y-24 gap-8 mt-6 sm:mt-20">

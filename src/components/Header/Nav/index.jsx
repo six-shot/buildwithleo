@@ -20,7 +20,7 @@ export default function index() {
                           animate="enter"
                           exit="exit"
                         >
-                            <a>
+                            <a className='font-monument_normal '>
                                 {title}
                             </a>
                         </motion.div>
@@ -41,6 +41,7 @@ export default function index() {
                             animate="enter"
                             exit="exit"
                             key={`f_${i}`}
+                            className='font-monument_normal'
                         >
                             {title}
                         </motion.a>
