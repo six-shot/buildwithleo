@@ -20,7 +20,7 @@ export default function Home() {
   //    requestAnimationFrame(raf);
   //  }, []);
   return (
-    <main className="max-w-[1440px] mx-auto">
+    <main className="">
       <Hero />
       <AboutUs />
       <WhyWithUs/>
